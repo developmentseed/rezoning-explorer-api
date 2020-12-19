@@ -136,7 +136,7 @@ def get_layers():
             layer["title"] = lkey
         else:
             layer["description"] = None
-            layer["category"] = "unknown"
+            layer["category"] = "Additional wind/solar layers"
             layer["title"] = lkey
 
     # for now, remove excess manually
